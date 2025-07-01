@@ -1,23 +1,20 @@
 # C Programming Coursework
 
-This repository contains C programs I wrote during my Master's coursework at Pondicherry University. These small programs cover a variety of fundamental concepts in C and serve as a record of my learning.
+This repository contains C programs I wrote during my Master's coursework at Pondicherry University. These programs span a wide range of fundamental C concepts and are organized by topic for clarity and ease of navigation.
 
 ## 📁 Folder Structure
 
-- `01_basics/` – Input/output, simple arithmetic, basic syntax
-- `02_control_structures/` – If-else, loops, conditionals
-- `03_functions/` – Programs using user-defined and recursive functions
-- `04_arrays/` – One- and two-dimensional array operations
-- `05_math_operations/` – Algebra, geometry, logic-based math problems
-- `06_file_operations/` – File input/output
-- `07_conversions/` – Unit and value conversions
-- `08_string_and_char/` – Character-level and codon-related programs
-- `09_statistics_and_logic/` – Logic and statistics-based calculations
-- `misc/` – Other programs that don’t fit in the above categories
+- `01_simple_operations/` – Basic input/output, arithmetic operations, simple logic
+- `02_if-else/` – Programs using `if`, `else if`, and `else` conditional logic
+- `03_switchcase/` – Use of `switch-case` statements for selection control
+- `04_loops/` – Programs demonstrating loops (`for`, `while`, `do-while`)
+- `05_arrays_and_matrices/` – Operations on arrays, multidimensional arrays, and matrices
+- `06_functions/` – Programs using user-defined functions and recursion
+- `misc/` – Miscellaneous programs that don’t fit the above categories
 
-## 🔧 How to Compile
+## 🧪 How to Compile
 
-Use `gcc` to compile any `.c` file. Example:
+To compile a `.c` file using `gcc`, use the following command:
 ```bash
-gcc 01_basics/hello.c -o hello
-./hello
+gcc foldername/filename.c -o outputname
+./outputname
